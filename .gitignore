@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database (backup manual saja)
+data/game.db
+data/game.db-journal
+*.db
+*.db-journal
+
+# Settings user
+data/settings.json
+
+# Backup
+*.bak
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

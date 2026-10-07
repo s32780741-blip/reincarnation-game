@@ -1,0 +1,26 @@
+{
+  "config": {
+    "max_level": 1111,
+    "exp_multiplier": 1.5,
+    "stat_multiplier": 2.0,
+    "unlock_all_roles": true,
+    "unlock_all_races": false,
+    "teleport_free": true,
+    "encounter_difficulty": 1.8,
+    "rewards_multiplier": 2.0
+  },
+  "secret_commands": {
+    "/cit": "Attempt to unlock CIT MODE",
+    "/thekeeper": "Summon The Keeper of Cycles",
+    "/unlockall": "Debug command to unlock everything (requires CIT)"
+  },
+  "keeper_dialog": [
+    "Kau mencari lebih dari yang seharusnya kau cari.",
+    "Aku penjaga siklus. Aku telah melihat 47 Reborn sebelummu.",
+    "Kau berbeda. Kau sadar bahwa dunia ini... bukan satu-satunya.",
+    "Jika kau memilih jalan ini, tidak ada jalan kembali.",
+    "Kau akan menembus batas yang seharusnya tidak kau tembus.",
+    "Level maksimalmu akan berubah. Dunia akan terbuka.",
+    "Apakah kau siap?"
+  ]
+}

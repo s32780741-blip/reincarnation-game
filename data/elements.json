@@ -1,0 +1,42 @@
+{
+  "elements": [
+    "fire", "water", "earth", "wind", "lightning", "ice",
+    "light", "dark", "nature", "poison", "metal", "void", "spirit", "none"
+  ],
+  "advantage": {
+    "fire": ["ice", "nature"],
+    "water": ["fire", "earth"],
+    "ice": ["water", "nature"],
+    "earth": ["lightning", "metal"],
+    "lightning": ["earth", "water"],
+    "wind": ["earth", "nature"],
+    "light": ["dark", "void"],
+    "dark": ["light", "spirit"],
+    "nature": ["earth", "water"],
+    "poison": ["nature", "metal"],
+    "metal": ["ice", "wind"],
+    "void": ["light", "dark", "spirit"],
+    "spirit": ["void", "dark"]
+  },
+  "resistant": {
+    "fire": ["water", "earth"],
+    "water": ["ice", "lightning"],
+    "ice": ["fire", "metal"],
+    "earth": ["wind", "nature", "lightning"],
+    "lightning": ["earth", "metal"],
+    "wind": ["metal", "ice"],
+    "light": ["void"],
+    "dark": ["spirit"],
+    "nature": ["fire", "poison"],
+    "poison": ["metal", "earth"],
+    "metal": ["lightning", "fire"],
+    "void": ["light", "dark"],
+    "spirit": ["dark", "void"]
+  },
+  "colors": {
+    "fire": "red", "water": "blue", "earth": "yellow", "wind": "green",
+    "lightning": "cyan", "ice": "cyan", "light": "white", "dark": "magenta",
+    "nature": "green", "poison": "magenta", "metal": "white", "void": "magenta",
+    "spirit": "cyan", "none": "gray"
+  }
+}

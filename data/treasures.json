@@ -1,0 +1,9 @@
+{
+  "hidden_locations": [
+    {"id":"hl_forest_shrine","name":"Forest Shrine","biome":"forest","rarity":"common","loot_table":"small","req_perception":5,"desc":"Kuil kecil di tengah hutan."},
+    {"id":"hl_ancient_well","name":"Ancient Well","biome":"ruins","rarity":"uncommon","loot_table":"medium","req_perception":8,"desc":"Sumur tua yang tidak berisi air."},
+    {"id":"hl_mountain_cache","name":"Mountain Cache","biome":"mountain","rarity":"uncommon","loot_table":"medium","req_perception":10,"desc":"Peti tersembunyi di celah batu."},
+    {"id":"hl_dragon_hoard","name":"Dragon's Hoard","biome":"wilderness","rarity":"legendary","loot_table":"ancient","req_perception":20,"desc":"Harta karun naga purba."},
+    {"id":"hl_sunken_ship","name":"Sunken Ship","biome":"sea","rarity":"rare","loot_table":"rare","req_perception":12,"desc":"Kapal karam berisi barang mahal."}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "endings": [
+    {
+      "id":"end_cycle_broken",
+      "title":"The Cycle Broken",
+      "condition":"Defeat Guardian + destroy 5 seals + keep Elara alive",
+      "text":"Kau menghancurkan kelima segel. Siklus berakhir. Dunia baru lahir dari reruntuhan yang lama. Tidak ada lagi Reborn. Tidak ada lagi perpisahan. Elara tersenyum untuk pertama kali dalam 1000 tahun.",
+      "color":"green",
+      "reward":{"exp":100000,"gold":500,"achievement":"a_ending_cycle_broken"}
+    },
+    {
+      "id":"end_eternal_guardian",
+      "title":"The Eternal Guardian",
+      "condition":"Defeat Guardian + take his place",
+      "text":"Kau menggantikan Guardian. Siklus berlanjut — tapi kali ini, dengan penjaga yang penuh kasih. Elara tetap menunggu, tapi setidaknya ia tahu kau masih ada.",
+      "color":"blue",
+      "reward":{"exp":80000,"gold":400,"achievement":"a_ending_eternal_guardian"}
+    },
+    {
+      "id":"end_return_home",
+      "title":"Return to the Old World",
+      "condition":"Use Silver Key + have 3+ anchors",
+      "text":"Kau kembali ke Bumi. Kereta, gedung, dan semua yang kau lupakan. Tapi setiap malam, kau memimpikan Elara, dan dunia yang kau tinggalkan.",
+      "color":"cyan",
+      "reward":{"exp":70000,"gold":300,"achievement":"a_ending_return_home"}
+    },
+    {
+      "id":"end_sacrifice",
+      "title":"The Final Sacrifice",
+      "condition":"Defeat Guardian + Elara dies",
+      "text":"Kau memutus siklus — tapi Elara harus mati. Kau hidup, tapi tanpa anchor. Setiap siklus, kau kehilangan memori. Akhirnya, kau lupa segalanya.",
+      "color":"magenta",
+      "reward":{"exp":90000,"gold":350,"achievement":"a_ending_sacrifice"}
+    },
+    {
+      "id":"end_void_consumed",
+      "title":"Consumed by the Void",
+      "condition":"Fail to defeat Guardian + 5 seals broken",
+      "text":"Void Beyond menelan dunia. Kau dan Elara berpisah dalam kegelapan. Siklus ini berakhir dengan kegagalan — seperti 47 sebelumnya.",
+      "color":"red",
+      "reward":{"exp":50000,"achievement":"a_ending_void_consumed"}
+    },
+    {
+      "id":"end_dragon_ascension",
+      "title":"Dragon Ascension",
+      "condition":"Role = Dragon Knight + defeat Guardian + Elara alive",
+      "text":"Kau menjadi naga abadi. Dunia baru dipimpin olehmu dan Elara. Siklus berakhir, tapi kau menjadi legenda yang tak akan pernah mati.",
+      "color":"yellow",
+      "reward":{"exp":150000,"gold":1000,"achievement":"a_ending_dragon_ascension"}
+    }
+  ]
+}

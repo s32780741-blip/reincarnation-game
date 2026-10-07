@@ -1,0 +1,40 @@
+{
+  "endless_dungeon": {
+    "name": "The Endless Spiral",
+    "desc": "Dungeon tanpa akhir. Setiap lantai lebih kuat dari sebelumnya. Tidak ada jalan keluar kecuali kalah atau mundur.",
+    "base_level": 100,
+    "level_per_floor": 5,
+    "enemy_pool": ["shadow_stalker","vampire_spawn","lich_apprentice","arch_demon","void_devourer","chaos_behemoth"],
+    "reward_per_floor": {"silver": 500,"gold": 5,"exp": 2000},
+    "milestones": {
+      "10":  {"title":"Spiral Walker","reward":"title"},
+      "25":  {"title":"Abyss Conqueror","reward":"achievement","id":"a_spiral_25"},
+      "50":  {"title":"Void Breaker","reward":"achievement","id":"a_spiral_50"},
+      "100": {"title":"The Endless","reward":"achievement","id":"a_spiral_100"}
+    }
+  },
+  "arena": {
+    "name": "Champion's Arena",
+    "desc": "Bertarung melawan musuh dalam jumlah tetap. Tidak ada healing antar ronde.",
+    "wave_count": 10,
+    "waves": [
+      {"name":"Round 1","monsters":["bandit","bandit"],"level_bonus":0},
+      {"name":"Round 2","monsters":["dire_wolf","dire_wolf"],"level_bonus":2},
+      {"name":"Round 3","monsters":["orc_warrior","lizardman"],"level_bonus":4},
+      {"name":"Round 4","monsters":["crimson_wolf","frost_lynx"],"level_bonus":6},
+      {"name":"Round 5","monsters":["wyvern"],"level_bonus":8},
+      {"name":"Round 6","monsters":["minotaur","chimera_cub"],"level_bonus":10},
+      {"name":"Round 7","monsters":["vampire_spawn","lich_apprentice"],"level_bonus":12},
+      {"name":"Round 8","monsters":["elder_dragon"],"level_bonus":15},
+      {"name":"Round 9","monsters":["arch_demon","nightmare_behemoth"],"level_bonus":18},
+      {"name":"Final Round","monsters":["chaos_behemoth"],"level_bonus":25}
+    ],
+    "rewards": {"exp":15000,"gold":100,"silver":5000,"achievement":"a_arena_champion"}
+  },
+  "boss_rush": {
+    "name": "Rush of Titans",
+    "desc": "Lawan semua world boss berurutan tanpa berhenti. Waktu terbaikmu dicatat.",
+    "sequence": ["wb_ancient_treant","wb_crimson_titan","wb_storm_griffin","wb_frost_wyrm","wb_void_devourer"],
+    "rewards": {"exp":50000,"gold":300,"silver":20000,"achievement":"a_boss_rush"}
+  }
+}

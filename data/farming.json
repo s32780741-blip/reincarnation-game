@@ -1,0 +1,9 @@
+{
+  "crops": [
+    {"id":"wheat","seed":"wheat_seed","yield":{"id":"wheat","amount":[2,4]},"grow_time":60,"exp":10,"water_bonus":0.4},
+    {"id":"carrot","seed":"carrot_seed","yield":{"id":"carrot","amount":[1,3]},"grow_time":90,"exp":12,"water_bonus":0.4},
+    {"id":"fresh_herb","seed":"herb_seed","yield":{"id":"fresh_herb","amount":[2,5]},"grow_time":120,"exp":15,"water_bonus":0.5},
+    {"id":"mana_herb","seed":"mana_herb_seed","yield":{"id":"mana_herb","amount":[1,3]},"grow_time":300,"exp":40,"water_bonus":0.6}
+  ],
+  "plot_count": 6
+}

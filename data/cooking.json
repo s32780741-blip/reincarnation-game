@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    {"id":"c_bread","name":"Bread","output":{"id":"bread","amount":1},"materials":[{"id":"wheat","amount":3}],"cooking_req":1,"exp":15},
+    {"id":"c_meat_stew","name":"Meat Stew","output":{"id":"meat_stew","amount":1},"materials":[{"id":"beast_hide","amount":0},{"id":"fresh_herb","amount":2},{"id":"carrot","amount":2}],"cooking_req":2,"exp":30},
+    {"id":"c_herb_salad","name":"Herb Salad","output":{"id":"herb_salad","amount":1},"materials":[{"id":"fresh_herb","amount":3},{"id":"carrot","amount":1}],"cooking_req":1,"exp":20},
+    {"id":"c_mana_soup","name":"Mana Soup","output":{"id":"mana_soup","amount":1},"materials":[{"id":"mana_herb","amount":2},{"id":"fresh_herb","amount":1}],"cooking_req":3,"exp":60},
+    {"id":"c_ration","name":"Traveler Ration","output":{"id":"traveler_ration","amount":2},"materials":[{"id":"bread","amount":1},{"id":"meat_stew","amount":1}],"cooking_req":2,"exp":35},
+    {"id":"c_warrior_feast","name":"Warrior's Feast","output":{"id":"warrior_feast","amount":1},"materials":[{"id":"meat_stew","amount":2},{"id":"fresh_herb","amount":3},{"id":"mana_herb","amount":1}],"cooking_req":4,"exp":100},
+    {"id":"c_sage_tea","name":"Sage Tea","output":{"id":"sage_tea","amount":1},"materials":[{"id":"mana_herb","amount":1},{"id":"fresh_herb","amount":2}],"cooking_req":3,"exp":70}
+  ]
+}

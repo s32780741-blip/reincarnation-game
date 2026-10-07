@@ -1,0 +1,39 @@
+{
+  "mining_nodes": [
+    {"id":"mn_stone","name":"Stone Deposit","tier":1,"drops":["stone_shard","coal"],"chance":{"stone_shard":1.0,"coal":0.3},"stamina":3,"exp":8,"req_pickaxe":"iron_pickaxe"},
+    {"id":"mn_copper","name":"Copper Vein","tier":1,"drops":["copper_ore","stone_shard"],"chance":{"copper_ore":0.9,"stone_shard":0.6},"stamina":4,"exp":12,"req_pickaxe":"iron_pickaxe"},
+    {"id":"mn_iron","name":"Iron Vein","tier":2,"drops":["iron_ore","coal"],"chance":{"iron_ore":0.85,"coal":0.4},"stamina":5,"exp":18,"req_pickaxe":"iron_pickaxe"},
+    {"id":"mn_silver","name":"Silver Vein","tier":3,"drops":["silver_ore","iron_ore"],"chance":{"silver_ore":0.7,"iron_ore":0.5},"stamina":6,"exp":28,"req_pickaxe":"iron_pickaxe"},
+    {"id":"mn_gold","name":"Gold Vein","tier":4,"drops":["gold_ore","silver_ore"],"chance":{"gold_ore":0.6,"silver_ore":0.4},"stamina":8,"exp":45,"req_pickaxe":"steel_pickaxe"},
+    {"id":"mn_mithril","name":"Mithril Vein","tier":5,"drops":["mithril_ore"],"chance":{"mithril_ore":0.5},"stamina":10,"exp":80,"req_pickaxe":"steel_pickaxe"},
+    {"id":"mn_adamantite","name":"Adamantite Vein","tier":6,"drops":["adamantite_ore"],"chance":{"adamantite_ore":0.4},"stamina":12,"exp":120,"req_pickaxe":"steel_pickaxe"},
+    {"id":"mn_crystal","name":"Crystal Node","tier":5,"drops":["element_crystal"],"chance":{"element_crystal":0.35},"stamina":10,"exp":100,"req_pickaxe":"steel_pickaxe"}
+  ],
+  "gathering_nodes": [
+    {"id":"gn_herb","name":"Common Herbs","tier":1,"drops":["herb_common","fresh_herb"],"chance":{"herb_common":0.8,"fresh_herb":0.5},"stamina":2,"exp":6,"req_tool":"sickle"},
+    {"id":"gn_herb_rare","name":"Rare Herbs","tier":3,"drops":["herb_rare","mana_herb"],"chance":{"herb_rare":0.5,"mana_herb":0.3},"stamina":4,"exp":20,"req_tool":"sickle"},
+    {"id":"gn_wood","name":"Wood Grove","tier":1,"drops":["wood_log"],"chance":{"wood_log":1.0},"stamina":3,"exp":6,"req_tool":"iron_axe"},
+    {"id":"gn_hardwood","name":"Hardwood Tree","tier":3,"drops":["wood_log","heartwood"],"chance":{"wood_log":0.9,"heartwood":0.15},"stamina":5,"exp":25,"req_tool":"iron_axe"},
+    {"id":"gn_fiber","name":"Fiber Plants","tier":1,"drops":["spider_silk","cloth"],"chance":{"spider_silk":0.4,"cloth":0.2},"stamina":2,"exp":8,"req_tool":"sickle"},
+    {"id":"gn_berry","name":"Wild Berries","tier":2,"drops":["fresh_herb","carrot"],"chance":{"fresh_herb":0.6,"carrot":0.4},"stamina":2,"exp":10,"req_tool":"sickle"}
+  ],
+  "region_nodes": {
+    "central_plains":  {"mining":["mn_stone","mn_copper"],"gathering":["gn_herb","gn_wood","gn_berry"]},
+    "whispering_forest":{"mining":["mn_stone","mn_copper"],"gathering":["gn_herb","gn_wood","gn_fiber","gn_berry"]},
+    "mirror_lake":     {"mining":["mn_stone"],"gathering":["gn_herb","gn_berry"]},
+    "stone_mines":     {"mining":["mn_iron","mn_copper","mn_silver"],"gathering":["gn_herb"]},
+    "northern_highlands":{"mining":["mn_iron","mn_silver"],"gathering":["gn_wood","gn_hardwood","gn_herb_rare"]},
+    "iceveil_peaks":   {"mining":["mn_gold","mn_mithril","mn_crystal"],"gathering":["gn_herb_rare"]},
+    "iron_deep_mines": {"mining":["mn_iron","mn_silver","mn_gold","mn_mithril"],"gathering":[]},
+    "elder_forest":    {"mining":["mn_stone"],"gathering":["gn_herb","gn_herb_rare","gn_wood","gn_hardwood"]},
+    "whisperfall_grove":{"mining":["mn_stone"],"gathering":["gn_herb","gn_fiber","gn_hardwood"]},
+    "sacred_spring":   {"mining":[],"gathering":["gn_herb_rare","gn_berry"]},
+    "shadow_marsh":    {"mining":["mn_stone"],"gathering":["gn_herb","gn_fiber","gn_herb_rare"]},
+    "bone_fields":     {"mining":["mn_silver","mn_gold"],"gathering":["gn_herb_rare"]},
+    "veiled_catacombs":{"mining":["mn_mithril","mn_adamantite","mn_crystal"],"gathering":[]},
+    "sun_dunes":       {"mining":["mn_copper","mn_gold"],"gathering":["gn_herb_rare","gn_berry"]},
+    "coral_reefs":     {"mining":["mn_stone"],"gathering":["gn_fiber","gn_berry"]},
+    "ancient_oasis":   {"mining":["mn_gold","mn_mithril"],"gathering":["gn_herb_rare","gn_berry"]},
+    "free_wilds":      {"mining":["mn_iron","mn_silver","mn_gold","mn_mithril","mn_adamantite","mn_crystal"],"gathering":["gn_herb_rare","gn_hardwood","gn_berry"]}
+  }
+}

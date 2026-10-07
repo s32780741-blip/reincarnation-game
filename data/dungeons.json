@@ -1,0 +1,19 @@
+{
+  "dungeon_themes": [
+    {"id":"crypt","name":"Forgotten Crypt","biomes":["ruins","underground"],"min_floor":3,"max_floor":7,"level_base":25,"monster_pool":["skeleton_warrior","wandering_zombie","cave_bat","shadow_stalker"],"boss_pool":["lich_apprentice","vampire_spawn"],"treasure_table":"medium","color":"magenta","desc":"Makam tua yang dipenuhi tulang."},
+    {"id":"cave","name":"Deep Cave","biomes":["cave","mountain","underground"],"min_floor":3,"max_floor":6,"level_base":20,"monster_pool":["cave_bat","cave_troll","giant_spider","stone_golem"],"boss_pool":["direbear","minotaur"],"treasure_table":"medium","color":"gray","desc":"Gua dalam, gelap, dan berbahaya."},
+    {"id":"bandit_hideout","name":"Bandit Hideout","biomes":["forest","road"],"min_floor":2,"max_floor":4,"level_base":22,"monster_pool":["bandit","small_goblin","brown_wolf"],"boss_pool":["bandit"],"treasure_table":"small","color":"red","desc":"Sarang bandit di dalam hutan."},
+    {"id":"ancient_temple","name":"Ancient Temple","biomes":["ruins","forest"],"min_floor":4,"max_floor":8,"level_base":45,"monster_pool":["stone_golem","skeleton_warrior","harpy","centaur_scout"],"boss_pool":["ancient_treant","minotaur"],"treasure_table":"rare","color":"cyan","desc":"Kuil kuno yang penuh jebakan."},
+    {"id":"demon_rift","name":"Demon Rift","biomes":["wilderness","ruins"],"min_floor":5,"max_floor":9,"level_base":90,"monster_pool":["flame_imp","shadow_stalker","vampire_spawn","lich_apprentice"],"boss_pool":["arch_demon","nightmare_behemoth"],"treasure_table":"ancient","color":"red","desc":"Celah menuju dunia demon."},
+    {"id":"frozen_halls","name":"Frozen Halls","biomes":["snow","mountain"],"min_floor":4,"max_floor":8,"level_base":60,"monster_pool":["frost_lynx","frost_behemoth","cave_troll"],"boss_pool":["frost_wyrm_king"],"treasure_table":"rare","color":"cyan","desc":"Aula es abadi."},
+    {"id":"sunken_ruins","name":"Sunken Ruins","biomes":["sea","lake"],"min_floor":3,"max_floor":6,"level_base":40,"monster_pool":["sea_serpent","lizardman","mermaid"],"boss_pool":["sea_serpent"],"treasure_table":"medium","color":"blue","desc":"Reruntuhan di bawah air."}
+  ],
+  "floor_types": [
+    {"id":"combat","name":"Combat Chamber","weight":40},
+    {"id":"treasure","name":"Treasure Room","weight":20},
+    {"id":"trap","name":"Trap Room","weight":15},
+    {"id":"puzzle","name":"Puzzle Room","weight":10},
+    {"id":"rest","name":"Rest Chamber","weight":10},
+    {"id":"boss","name":"Boss Chamber","weight":5}
+  ]
+}

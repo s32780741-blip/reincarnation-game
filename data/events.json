@@ -1,0 +1,63 @@
+{
+  "events": [
+    {"id":"ev_merchant","name":"Wandering Merchant","type":"merchant","weight":10,"desc":"Pedagang keliling muncul.","biomes":["road","plains","forest","village"]},
+    {"id":"ev_traveler","name":"Traveler Need Help","type":"traveler","weight":12,"desc":"Musafir meminta bantuan menunjukkan jalan.","biomes":["road","plains","forest"]},
+    {"id":"ev_bandit","name":"Bandit Ambush","type":"ambush","weight":8,"desc":"Bandit menyergap!","biomes":["road","forest","wilderness"]},
+    {"id":"ev_wolf_pack","name":"Wolf Pack","type":"ambush","weight":8,"desc":"Kawanan serigala menyerang.","biomes":["forest","mountain","snow"]},
+    {"id":"ev_treasure_small","name":"Hidden Chest","type":"treasure","weight":6,"desc":"Kamu menemukan peti kecil terkubur.","biomes":["forest","ruins","cave","beach"]},
+    {"id":"ev_treasure_rare","name":"Ancient Relic","type":"treasure","weight":2,"desc":"Relik kuno menancap di batu.","biomes":["ruins","cave","underground"]},
+    {"id":"ev_lost_child","name":"Lost Child","type":"rescue","weight":5,"desc":"Anak kecil menangis. Dia tersesat.","biomes":["forest","plains","village"]},
+    {"id":"ev_rare_monster","name":"Rare Monster","type":"rare_monster","weight":4,"desc":"Monster langka muncul!","biomes":["forest","mountain","swamp","ruins"]},
+    {"id":"ev_wandering_boss","name":"Wandering Boss","type":"world_boss","weight":1,"desc":"Boss berkeliaran di wilayah ini!","biomes":["wilderness","ruins","cave"]},
+    {"id":"ev_mysterious_npc","name":"Mysterious Stranger","type":"mystery","weight":3,"desc":"Sosok misterius menatapmu dari jauh.","biomes":["road","forest","ruins"]},
+    {"id":"ev_ancient_ruins","name":"Ancient Ruins","type":"location","weight":4,"desc":"Kamu menemukan reruntuhan kuno.","biomes":["forest","mountain","wilderness"]},
+    {"id":"ev_hidden_dungeon","name":"Hidden Dungeon","type":"dungeon","weight":2,"desc":"Pintu dungeon tersembunyi terbuka!","biomes":["cave","ruins","wilderness"]},
+    {"id":"ev_element_core","name":"Element Core","type":"treasure_element","weight":3,"desc":"Kristal element berkilau di tanah.","biomes":["cave","ruins","mountain","underground"]},
+    {"id":"ev_herb_patch","name":"Herb Patch","type":"resource","weight":8,"desc":"Rumpunan herbal liar.","biomes":["forest","plains","swamp"]},
+    {"id":"ev_ore_vein","name":"Ore Outcrop","type":"resource","weight":7,"desc":"Bijih logam muncul ke permukaan.","biomes":["mountain","cave","underground"]},
+    {"id":"ev_guild_recruiter","name":"Guild Recruiter","type":"social","weight":5,"desc":"Recruiter guild menawarkan kesempatan.","biomes":["road","village","plains"]},
+    {"id":"ev_wounded_knight","name":"Wounded Knight","type":"rescue","weight":4,"desc":"Ksatria terluka butuh pertolongan.","biomes":["road","forest","mountain"]},
+    {"id":"ev_strange_weather","name":"Strange Weather","type":"weather","weight":4,"desc":"Cuaca berubah drastis!","biomes":["plains","mountain","desert","sea"]},
+    {"id":"ev_ancient_tree","name":"Ancient Tree","type":"mystery","weight":3,"desc":"Pohon raksasa berbisik namamu.","biomes":["forest","swamp"]},
+    {"id":"ev_fairy","name":"Fairy Encounter","type":"social","weight":3,"desc":"Peri kecil mendekat dengan rasa ingin tahu.","biomes":["forest","lake"]},
+    {"id":"ev_ghost","name":"Wandering Ghost","type":"mystery","weight":3,"desc":"Arwah penasaran berkeliaran.","biomes":["ruins","cave","swamp"]},
+    {"id":"ev_trader_caravan","name":"Trader Caravan","type":"social","weight":5,"desc":"Karavan pedagang besar lewat.","biomes":["road","desert","plains"]},
+    {"id":"ev_pilgrims","name":"Pilgrims","type":"social","weight":4,"desc":"Rombongan peziarah menuju kuil.","biomes":["road","plains","mountain"]},
+    {"id":"ev_lost_item","name":"Lost Item","type":"treasure","weight":5,"desc":"Ada tas tertinggal di pinggir jalan.","biomes":["road","forest","plains"]},
+    {"id":"ev_desert_mirage","name":"Desert Mirage","type":"mystery","weight":2,"desc":"Fatamorgana aneh muncul di gurun.","biomes":["desert"]},
+    {"id":"ev_snow_spirit","name":"Snow Spirit","type":"social","weight":2,"desc":"Spirit salju menari di udara.","biomes":["snow","mountain"]},
+    {"id":"ev_sea_creature","name":"Sea Creature","type":"rare_monster","weight":3,"desc":"Makhluk laut muncul ke permukaan.","biomes":["sea","lake"]},
+    {"id":"ev_cursed_idol","name":"Cursed Idol","type":"mystery","weight":2,"desc":"Patung terkutuk berdiri di tengah jalan.","biomes":["ruins","swamp","underground"]},
+    {"id":"ev_magic_portal","name":"Magic Portal","type":"dungeon","weight":1,"desc":"Portal sihir muncul tiba-tiba.","biomes":["mountain","ruins","wilderness"]},
+    {"id":"ev_hunter_camp","name":"Hunter Camp","type":"social","weight":4,"desc":"Kemah pemburu. Mereka ramah.","biomes":["forest","mountain","snow"]},
+    {"id":"ev_ambush_goblin","name":"Goblin Ambush","type":"ambush","weight":6,"desc":"Goblin menyergap!","biomes":["forest","mountain","ruins"]},
+    {"id":"ev_ambush_undead","name":"Undead Ambush","type":"ambush","weight":4,"desc":"Mayat hidup muncul dari tanah!","biomes":["ruins","swamp","underground"]},
+    {"id":"ev_meteor","name":"Meteor Shower","type":"weather","weight":1,"desc":"Meteor jatuh! Langit menyala.","biomes":["plains","desert","wilderness"]}
+  ],
+  "treasure_tables": {
+    "small": [
+      {"silver":[20,80],"chance":1.0},
+      {"item":"healing_potion_s","amount":[1,2],"chance":0.5},
+      {"item":"iron_ore","amount":[1,3],"chance":0.4},
+      {"item":"herb_common","amount":[1,3],"chance":0.3}
+    ],
+    "medium": [
+      {"silver":[100,300],"chance":1.0},
+      {"item":"iron_ingot","amount":[1,3],"chance":0.5},
+      {"item":"healing_potion_m","amount":[1,2],"chance":0.4},
+      {"item":"fire_core","amount":1,"chance":0.15}
+    ],
+    "rare": [
+      {"silver":[300,800],"gold":[1,3],"chance":1.0},
+      {"item":"steel_ingot","amount":[2,5],"chance":0.5},
+      {"item":"healing_potion_l","amount":1,"chance":0.4},
+      {"item":"element_core","amount":1,"chance":0.3}
+    ],
+    "ancient": [
+      {"silver":[500,1500],"gold":[5,15],"chance":1.0},
+      {"item":"mithril_ore","amount":[1,3],"chance":0.4},
+      {"item":"adamantite_ore","amount":1,"chance":0.2},
+      {"item":"element_core","amount":["1-2"],"chance":0.5}
+    ]
+  }
+}

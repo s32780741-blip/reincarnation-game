@@ -1,0 +1,24 @@
+{
+  "achievements": [
+    {"id":"a_first_blood","name":"First Blood","desc":"Kalahkan monster pertamamu.","category":"combat","reward":{"exp":50}},
+    {"id":"a_monster_hunter_10","name":"Monster Hunter","desc":"Kalahkan 10 monster.","category":"combat","reward":{"exp":200,"silver":100}},
+    {"id":"a_monster_hunter_100","name":"Ace Hunter","desc":"Kalahkan 100 monster.","category":"combat","reward":{"exp":2000,"silver":1000,"gold":5}},
+    {"id":"a_first_quest","name":"First Quest","desc":"Selesaikan quest pertamamu.","category":"quest","reward":{"exp":100}},
+    {"id":"a_quest_10","name":"Adventurer","desc":"Selesaikan 10 quest.","category":"quest","reward":{"exp":500,"silver":300}},
+    {"id":"a_quest_50","name":"Quest Master","desc":"Selesaikan 50 quest.","category":"quest","reward":{"exp":5000,"gold":20}},
+    {"id":"a_first_bounty","name":"Bounty Hunter","desc":"Selesaikan bounty pertama.","category":"bounty","reward":{"exp":300}},
+    {"id":"a_bounty_10","name":"Hunter Elite","desc":"Selesaikan 10 bounty.","category":"bounty","reward":{"exp":3000,"gold":15}},
+    {"id":"a_level_20","name":"Growing Strong","desc":"Capai Level 20.","category":"level","reward":{"exp":0,"silver":200}},
+    {"id":"a_level_50","name":"Veteran Adventurer","desc":"Capai Level 50.","category":"level","reward":{"exp":0,"gold":10}},
+    {"id":"a_level_100","name":"Master of the Realm","desc":"Capai Level 100.","category":"level","reward":{"exp":0,"gold":50}},
+    {"id":"a_first_role_change","name":"Versatile","desc":"Belajar role kedua.","category":"role","reward":{"exp":300}},
+    {"id":"a_all_masteries","name":"Jack of All Trades","desc":"Capai Mastery level 3 di 3 tree.","category":"role","reward":{"exp":2000}},
+    {"id":"a_traveler","name":"Traveler","desc":"Kunjungi 5 kota berbeda.","category":"explore","reward":{"exp":500,"silver":300}},
+    {"id":"a_world_explorer","name":"World Explorer","desc":"Kunjungi 15 kota berbeda.","category":"explore","reward":{"exp":3000,"gold":20}},
+    {"id":"a_element_collector","name":"Element Collector","desc":"Kumpulkan 5 jenis Element Core.","category":"collect","reward":{"exp":1000}},
+    {"id":"a_crafter","name":"Craftsman","desc":"Craft item pertamamu.","category":"craft","reward":{"exp":200}},
+    {"id":"a_rich","name":"Wealthy","desc":"Miliki 10 Gold.","category":"wealth","reward":{"exp":500}},
+    {"id":"a_very_rich","name":"Tycoon","desc":"Miliki 100 Gold.","category":"wealth","reward":{"exp":5000}},
+    {"id":"a_rank_5","name":"Elite Rank","desc":"Capai Rank V.","category":"rank","reward":{"exp":0,"gold":30}}
+  ]
+}

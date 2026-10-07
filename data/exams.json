@@ -1,0 +1,76 @@
+{
+  "categories": {
+    "physical": {"name": "Physical", "exams": [
+      {"id":"ex_str","name":"Strength Trial","stat":"strength","difficulty":3,"desc":"Angkat batu besar selama 1 menit."},
+      {"id":"ex_end","name":"Endurance Run","stat":"endurance","difficulty":4,"desc":"Lari jarak jauh tanpa henti."},
+      {"id":"ex_sta","name":"Stamina Test","stat":"stamina","difficulty":3,"desc":"Latihan fisik intensif 30 menit."},
+      {"id":"ex_spd","name":"Speed Dash","stat":"speed","difficulty":4,"desc":"Sprint cepat melawan waktu."},
+      {"id":"ex_agi","name":"Agility Course","stat":"agility","difficulty":4,"desc":"Melewati rintangan berkelanjutan."},
+      {"id":"ex_dex","name":"Reflex Test","stat":"dexterity","difficulty":5,"desc":"Menghindari serangan simulasi."}
+    ]},
+    "knowledge": {"name": "Knowledge", "exams": [
+      {"id":"ex_km","name":"Monster Knowledge","stat":"intelligence","difficulty":3,"desc":"Identifikasi monster dari gambar."},
+      {"id":"ex_kmag","name":"Magic Theory","stat":"intelligence","difficulty":4,"desc":"Ujian dasar teori sihir."},
+      {"id":"ex_kw","name":"Weapon Lore","stat":"intelligence","difficulty":3,"desc":"Kenali jenis dan sejarah senjata."},
+      {"id":"ex_kg","name":"Geography","stat":"intelligence","difficulty":4,"desc":"Peta lima kerajaan."},
+      {"id":"ex_kh","name":"History Exam","stat":"intelligence","difficulty":5,"desc":"Sejarah perang kuno."},
+      {"id":"ex_kp","name":"Potion Knowledge","stat":"intelligence","difficulty":3,"desc":"Bahan dan efek potion."}
+    ]},
+    "combat": {"name":"Combat","exams":[
+      {"id":"ex_cs","name":"Sword Sparring","stat":"strength","difficulty":4,"desc":"Duel sparring senjata pedang."},
+      {"id":"ex_cb","name":"Bow Accuracy","stat":"accuracy","difficulty":4,"desc":"Tembak target bergerak."},
+      {"id":"ex_cm","name":"Magic Duel","stat":"intelligence","difficulty":5,"desc":"Duel sihir non-letil."},
+      {"id":"ex_csh","name":"Shield Defense","stat":"defense","difficulty":4,"desc":"Tahan serangan selama 5 menit."},
+      {"id":"ex_csp","name":"Spear Drill","stat":"dexterity","difficulty":4,"desc":"Latihan formasi tombak."},
+      {"id":"ex_ch","name":"Hand-to-Hand","stat":"strength","difficulty":4,"desc":"Bela diri tanpa senjata."}
+    ]},
+    "survival": {"name":"Survival","exams":[
+      {"id":"ex_su_h","name":"Hunting Test","stat":"perception","difficulty":4,"desc":"Lacak dan bunuh target."},
+      {"id":"ex_su_c","name":"Cooking Test","stat":"dexterity","difficulty":3,"desc":"Buat hidangan bergizi."},
+      {"id":"ex_su_t","name":"Tracking","stat":"perception","difficulty":5,"desc":"Ikuti jejak selama 2 jam."},
+      {"id":"ex_su_n","name":"Navigation","stat":"intelligence","difficulty":4,"desc":"Temukan jalan tanpa peta."},
+      {"id":"ex_su_ca","name":"Camping","stat":"endurance","difficulty":3,"desc":"Bangun kemah berkualitas."},
+      {"id":"ex_su_g","name":"Gathering","stat":"gathering","difficulty":3,"desc":"Kumpulkan material di alam."}
+    ]},
+    "mental": {"name":"Mental","exams":[
+      {"id":"ex_md","name":"Decision Making","stat":"intelligence","difficulty":5,"desc":"Ambil keputusan dalam simulasi krisis."},
+      {"id":"ex_mm","name":"Memory Test","stat":"intelligence","difficulty":5,"desc":"Hafal urutan panjang."},
+      {"id":"ex_ml","name":"Logic Puzzle","stat":"intelligence","difficulty":5,"desc":"Pecahkan teka-teki logika."},
+      {"id":"ex_mp","name":"Perception Drill","stat":"perception","difficulty":4,"desc":"Deteksi detail dalam kekacauan."},
+      {"id":"ex_mf","name":"Fear Resistance","stat":"endurance","difficulty":5,"desc":"Hadapi ilusi menakutkan."},
+      {"id":"ex_mc","name":"Concentration","stat":"intelligence","difficulty":4,"desc":"Fokus di tengah gangguan."}
+    ]},
+    "special": {"name":"Special","exams":[
+      {"id":"ex_sp_r","name":"Rescue Drill","stat":"strength","difficulty":4,"desc":"Selamatkan sandera simulasi."},
+      {"id":"ex_sp_e","name":"Escort Trial","stat":"defense","difficulty":4,"desc":"Kawal target ke tujuan."},
+      {"id":"ex_sp_i","name":"Investigation","stat":"perception","difficulty":5,"desc":"Selesaikan kasus mini."},
+      {"id":"ex_sp_s","name":"Stealth Test","stat":"stealth","difficulty":5,"desc":"Melewati penjaga tanpa terdeteksi."},
+      {"id":"ex_sp_n","name":"Negotiation","stat":"persuasion","difficulty":4,"desc":"Negosiasi dengan NPC keras."},
+      {"id":"ex_sp_l","name":"Leadership Test","stat":"persuasion","difficulty":5,"desc":"Pimpin simulasi party."}
+    ]},
+    "social": {"name":"Social","exams":[
+      {"id":"ex_so_p","name":"Persuasion Trial","stat":"persuasion","difficulty":4,"desc":"Yakinkan NPC untuk bantu."},
+      {"id":"ex_so_d","name":"Deception Test","stat":"persuasion","difficulty":5,"desc":"Bohong tanpa ketahuan."},
+      {"id":"ex_so_e","name":"Empathy Test","stat":"perception","difficulty":3,"desc":"Pahami perasaan NPC."},
+      {"id":"ex_so_i","name":"Intimidation","stat":"strength","difficulty":4,"desc":"Takuti NPC tanpa kekerasan."},
+      {"id":"ex_so_et","name":"Etiquette","stat":"intelligence","difficulty":3,"desc":"Etiket bangsawan."},
+      {"id":"ex_so_c","name":"Command Presence","stat":"persuasion","difficulty":5,"desc":"Beri perintah militer."}
+    ]},
+    "craft": {"name":"Craft","exams":[
+      {"id":"ex_cr_b","name":"Blacksmith Trial","stat":"crafting","difficulty":4,"desc":"Tempa pedang dasar."},
+      {"id":"ex_cr_a","name":"Alchemy Test","stat":"crafting","difficulty":5,"desc":"Buat potion dari nol."},
+      {"id":"ex_cr_e","name":"Enchant Basics","stat":"intelligence","difficulty":5,"desc":"Enchant item dasar."},
+      {"id":"ex_cr_t","name":"Tailoring","stat":"dexterity","difficulty":3,"desc":"Jahit pakaian sederhana."},
+      {"id":"ex_cr_c","name":"Advanced Cooking","stat":"crafting","difficulty":4,"desc":"Hidangan untuk bangsawan."},
+      {"id":"ex_cr_en","name":"Engineering","stat":"intelligence","difficulty":5,"desc":"Rakit jebakan mekanis."}
+    ]},
+    "divine": {"name":"Divine","exams":[
+      {"id":"ex_dv_l","name":"Light Channel","stat":"mana","difficulty":4,"desc":"Salurkan kekuatan cahaya."},
+      {"id":"ex_dv_d","name":"Dark Communion","stat":"mana","difficulty":5,"desc":"Kontak dengan kekuatan gelap (bukan jahat)."},
+      {"id":"ex_dv_s","name":"Spirit Call","stat":"mana","difficulty":5,"desc":"Panggil spirit hewan."},
+      {"id":"ex_dv_n","name":"Nature Attunement","stat":"intelligence","difficulty":4,"desc":"Berbicara dengan alam."},
+      {"id":"ex_dv_a","name":"Arcane Focus","stat":"mana","difficulty":5,"desc":"Konsentrasi sihir tingkat tinggi."},
+      {"id":"ex_dv_v","name":"Void Resistance","stat":"endurance","difficulty":6,"desc":"Tahan tekanan Void selama 1 menit."}
+    ]}
+  }
+}

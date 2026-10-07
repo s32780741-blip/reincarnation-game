@@ -1,0 +1,29 @@
+{
+  "kingdom_stories": {
+    "aetheria": {
+      "title": "The Nameless Throne",
+      "text": "Aetheria berdiri di atas reruntuhan menara Reborn pertama. Raja tidak tahu, tapi rahasia itu ada di bawah istananya.",
+      "unlock_lore":"lore_14"
+    },
+    "valtheron": {
+      "title": "The Iron Blood",
+      "text": "Valtheron lahir dari perang. Ksatria mereka tidak takut mati. Tapi mereka takut lupa.",
+      "unlock_lore":"lore_26"
+    },
+    "elaris": {
+      "title": "The Whispering Trees",
+      "text": "Hutan Elaris menyimpan suara-suara Reborn lama. Jika kau mendengarkan dengan seksama, kau bisa mendengar mereka.",
+      "unlock_lore":"lore_16"
+    },
+    "dravencrown": {
+      "title": "The Fifth Seal",
+      "text": "Di jantung Dravencrown, segel kelima berdenyut pelan. Lich penjaganya menunggu Reborn berikutnya.",
+      "unlock_lore":"lore_32"
+    },
+    "solmire": {
+      "title": "The Watcher in the Sand",
+      "text": "Patung besar di Solmire bukan patung. Ia adalah Reborn pertama yang memilih menjadi batu untuk melindungi dunia.",
+      "unlock_lore":"lore_23"
+    }
+  }
+}

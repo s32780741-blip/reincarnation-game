@@ -1,0 +1,36 @@
+{
+  "items": [
+    {"id":"iron_pickaxe","name":"Iron Pickaxe","type":"tool","subtype":"pickaxe","quality":"normal","weight":3.0,"durability":100,"price":150,"stackable":false,"desc":"Alat wajib untuk menambang."},
+    {"id":"steel_pickaxe","name":"Steel Pickaxe","type":"tool","subtype":"pickaxe","quality":"normal","weight":3.5,"durability":150,"price":500,"stackable":false,"desc":"Pickaxe berkualitas, yield lebih baik."},
+    {"id":"iron_axe","name":"Iron Axe","type":"tool","subtype":"axe","quality":"normal","weight":3.5,"durability":100,"price":140,"stackable":false},
+    {"id":"sickle","name":"Sickle","type":"tool","subtype":"sickle","quality":"normal","weight":1.5,"durability":80,"price":100,"stackable":false},
+    {"id":"hoe","name":"Hoe","type":"tool","subtype":"hoe","quality":"normal","weight":2.5,"durability":100,"price":120,"stackable":false},
+    {"id":"fishing_rod","name":"Fishing Rod","type":"tool","subtype":"fishing_rod","quality":"normal","weight":1.5,"durability":80,"price":120,"stackable":false},
+
+    {"id":"wheat_seed","name":"Wheat Seed","type":"seed","stackable":true,"weight":0.05,"price":15},
+    {"id":"herb_seed","name":"Herb Seed","type":"seed","stackable":true,"weight":0.05,"price":25},
+    {"id":"carrot_seed","name":"Carrot Seed","type":"seed","stackable":true,"weight":0.05,"price":20},
+    {"id":"mana_herb_seed","name":"Mana Herb Seed","type":"seed","stackable":true,"weight":0.05,"price":120},
+
+    {"id":"wheat","name":"Wheat","type":"crop","stackable":true,"weight":0.1,"price":10},
+    {"id":"carrot","name":"Carrot","type":"crop","stackable":true,"weight":0.2,"price":15},
+    {"id":"fresh_herb","name":"Fresh Herb","type":"crop","stackable":true,"weight":0.05,"price":20},
+    {"id":"mana_herb","name":"Mana Herb","type":"crop","stackable":true,"weight":0.05,"price":90},
+
+    {"id":"coal","name":"Coal","type":"material","stackable":true,"weight":0.5,"price":20},
+    {"id":"iron_ingot","name":"Iron Ingot","type":"material","stackable":true,"weight":1.0,"price":50},
+    {"id":"steel_ingot","name":"Steel Ingot","type":"material","stackable":true,"weight":1.0,"price":150},
+    {"id":"silver_ingot","name":"Silver Ingot","type":"material","stackable":true,"weight":0.8,"price":120},
+    {"id":"gold_ingot","name":"Gold Ingot","type":"material","stackable":true,"weight":0.8,"price":350},
+    {"id":"cloth","name":"Cloth","type":"material","stackable":true,"weight":0.2,"price":30},
+    {"id":"leather","name":"Leather","type":"material","stackable":true,"weight":0.5,"price":25},
+
+    {"id":"bread","name":"Bread","type":"food","stackable":true,"weight":0.3,"price":40,"effect":{"heal_hp":80,"heal_stamina":30}},
+    {"id":"meat_stew","name":"Meat Stew","type":"food","stackable":true,"weight":0.5,"price":120,"effect":{"heal_hp":200,"heal_stamina":80}},
+    {"id":"herb_salad","name":"Herb Salad","type":"food","stackable":true,"weight":0.3,"price":60,"effect":{"heal_hp":100,"heal_mp":40}},
+    {"id":"mana_soup","name":"Mana Soup","type":"food","stackable":true,"weight":0.4,"price":200,"effect":{"heal_mp":180}},
+    {"id":"traveler_ration","name":"Traveler Ration","type":"food","stackable":true,"weight":0.4,"price":100,"effect":{"heal_hp":150,"heal_stamina":100}},
+    {"id":"warrior_feast","name":"Warrior's Feast","type":"food","stackable":true,"weight":0.6,"price":400,"effect":{"heal_hp":400,"heal_stamina":200,"buff_strength":15,"duration":10}},
+    {"id":"sage_tea","name":"Sage Tea","type":"food","stackable":true,"weight":0.2,"price":150,"effect":{"heal_mp":120,"buff_intelligence":15,"duration":10}}
+  ]
+}

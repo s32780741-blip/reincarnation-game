@@ -1,0 +1,32 @@
+{
+  "recipes": [
+    {"id":"r_iron_ingot","name":"Iron Ingot","output":{"id":"iron_ingot","amount":1},"materials":[{"id":"iron_ore","amount":3},{"id":"coal","amount":1}],"crafting_req":1,"category":"smelt","desc":"Lelehkan iron ore menjadi ingot."},
+    {"id":"r_steel_ingot","name":"Steel Ingot","output":{"id":"steel_ingot","amount":1},"materials":[{"id":"iron_ingot","amount":2},{"id":"coal","amount":2}],"crafting_req":2,"category":"smelt"},
+    {"id":"r_silver_ingot","name":"Silver Ingot","output":{"id":"silver_ingot","amount":1},"materials":[{"id":"silver_ore","amount":3},{"id":"coal","amount":1}],"crafting_req":2,"category":"smelt"},
+    {"id":"r_gold_ingot","name":"Gold Ingot","output":{"id":"gold_ingot","amount":1},"materials":[{"id":"gold_ore","amount":3},{"id":"coal","amount":1}],"crafting_req":3,"category":"smelt"},
+
+    {"id":"r_cloth","name":"Cloth","output":{"id":"cloth","amount":1},"materials":[{"id":"spider_silk","amount":3}],"crafting_req":1,"category":"tailor"},
+    {"id":"r_leather","name":"Leather","output":{"id":"leather","amount":1},"materials":[{"id":"beast_hide","amount":2}],"crafting_req":1,"category":"tailor"},
+
+    {"id":"r_iron_sword","name":"Iron Sword","output":{"id":"iron_sword","amount":1},"materials":[{"id":"iron_ingot","amount":2},{"id":"wood_log","amount":1}],"crafting_req":2,"category":"weapon"},
+    {"id":"r_steel_sword","name":"Steel Sword","output":{"id":"steel_sword","amount":1},"materials":[{"id":"steel_ingot","amount":3},{"id":"wood_log","amount":1}],"crafting_req":4,"category":"weapon"},
+    {"id":"r_iron_dagger","name":"Iron Dagger","output":{"id":"iron_dagger","amount":1},"materials":[{"id":"iron_ingot","amount":1},{"id":"wood_log","amount":1}],"crafting_req":1,"category":"weapon"},
+    {"id":"r_steel_dagger","name":"Steel Dagger","output":{"id":"steel_dagger","amount":1},"materials":[{"id":"steel_ingot","amount":2}],"crafting_req":3,"category":"weapon"},
+    {"id":"r_iron_spear","name":"Iron Spear","output":{"id":"iron_spear","amount":1},"materials":[{"id":"iron_ingot","amount":3},{"id":"wood_log","amount":2}],"crafting_req":3,"category":"weapon"},
+    {"id":"r_battle_axe","name":"Battle Axe","output":{"id":"battle_axe","amount":1},"materials":[{"id":"iron_ingot","amount":4},{"id":"wood_log","amount":2}],"crafting_req":4,"category":"weapon"},
+
+    {"id":"r_iron_shield","name":"Iron Shield","output":{"id":"iron_shield","amount":1},"materials":[{"id":"iron_ingot","amount":3}],"crafting_req":3,"category":"armor"},
+    {"id":"r_leather_chest","name":"Leather Chest","output":{"id":"leather_chest","amount":1},"materials":[{"id":"leather","amount":3}],"crafting_req":1,"category":"armor"},
+    {"id":"r_chainmail","name":"Chainmail","output":{"id":"chainmail","amount":1},"materials":[{"id":"iron_ingot","amount":4},{"id":"cloth","amount":1}],"crafting_req":3,"category":"armor"},
+    {"id":"r_chain_helmet","name":"Chain Helmet","output":{"id":"chain_helmet","amount":1},"materials":[{"id":"iron_ingot","amount":2}],"crafting_req":2,"category":"armor"},
+
+    {"id":"r_healing_potion_s","name":"Small Healing Potion","output":{"id":"healing_potion_s","amount":1},"materials":[{"id":"fresh_herb","amount":2}],"crafting_req":1,"category":"alchemy"},
+    {"id":"r_healing_potion_m","name":"Healing Potion","output":{"id":"healing_potion_m","amount":1},"materials":[{"id":"fresh_herb","amount":3},{"id":"herb_common","amount":1}],"crafting_req":2,"category":"alchemy"},
+    {"id":"r_mana_potion_s","name":"Small Mana Potion","output":{"id":"mana_potion_s","amount":1},"materials":[{"id":"mana_herb","amount":1}],"crafting_req":3,"category":"alchemy"},
+
+    {"id":"r_iron_arrow","name":"Iron Arrow x10","output":{"id":"iron_arrow","amount":10},"materials":[{"id":"iron_ingot","amount":1},{"id":"wood_log","amount":1}],"crafting_req":1,"category":"misc"},
+
+    {"id":"r_iron_pickaxe","name":"Iron Pickaxe","output":{"id":"iron_pickaxe","amount":1},"materials":[{"id":"iron_ingot","amount":2},{"id":"wood_log","amount":2}],"crafting_req":2,"category":"tool"},
+    {"id":"r_iron_axe","name":"Iron Axe","output":{"id":"iron_axe","amount":1},"materials":[{"id":"iron_ingot","amount":2},{"id":"wood_log","amount":2}],"crafting_req":2,"category":"tool"}
+  ]
+}

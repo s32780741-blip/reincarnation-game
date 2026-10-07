@@ -1,0 +1,27 @@
+{
+  "regions": [
+    {"id": "central_plains",  "name": "Central Plains",   "kingdom": "aetheria",    "danger": 1, "recommended_level": [1, 30],   "biome": "plains"},
+    {"id": "north_road",      "name": "Northern Road",    "kingdom": "aetheria",    "danger": 3, "recommended_level": [15, 45],  "biome": "road"},
+    {"id": "whispering_forest","name": "Whispering Forest","kingdom": "aetheria",    "danger": 3, "recommended_level": [15, 50],  "biome": "forest"},
+    {"id": "mirror_lake",     "name": "Mirror Lake",      "kingdom": "aetheria",    "danger": 2, "recommended_level": [10, 35],  "biome": "lake"},
+    {"id": "stone_mines",     "name": "Stone Mines",      "kingdom": "aetheria",    "danger": 3, "recommended_level": [12, 40],  "biome": "cave"},
+
+    {"id": "northern_highlands","name": "Northern Highlands","kingdom": "valtheron","danger": 5, "recommended_level": [35, 80],  "biome": "mountain"},
+    {"id": "iceveil_peaks",   "name": "Iceveil Peaks",    "kingdom": "valtheron",   "danger": 7, "recommended_level": [50, 100], "biome": "snow"},
+    {"id": "iron_deep_mines", "name": "Iron Deep Mines",  "kingdom": "valtheron",   "danger": 6, "recommended_level": [45, 90],  "biome": "cave"},
+
+    {"id": "elder_forest",    "name": "Elder Forest",     "kingdom": "elaris",      "danger": 4, "recommended_level": [25, 65],  "biome": "forest"},
+    {"id": "whisperfall_grove","name": "Whisperfall Grove","kingdom": "elaris",      "danger": 3, "recommended_level": [22, 55],  "biome": "forest"},
+    {"id": "sacred_spring",   "name": "Sacred Spring",    "kingdom": "elaris",      "danger": 2, "recommended_level": [20, 45],  "biome": "forest"},
+
+    {"id": "shadow_marsh",    "name": "Shadow Marsh",     "kingdom": "dravencrown", "danger": 7, "recommended_level": [50, 110], "biome": "swamp"},
+    {"id": "bone_fields",     "name": "Bone Fields",      "kingdom": "dravencrown", "danger": 8, "recommended_level": [60, 130], "biome": "ruins"},
+    {"id": "veiled_catacombs","name": "Veiled Catacombs", "kingdom": "dravencrown", "danger": 8, "recommended_level": [65, 140], "biome": "underground"},
+
+    {"id": "sun_dunes",       "name": "Sun Dunes",        "kingdom": "solmire",     "danger": 5, "recommended_level": [35, 75],  "biome": "desert"},
+    {"id": "coral_reefs",     "name": "Coral Reefs",      "kingdom": "solmire",     "danger": 6, "recommended_level": [40, 85],  "biome": "sea"},
+    {"id": "ancient_oasis",   "name": "Ancient Oasis",    "kingdom": "solmire",     "danger": 6, "recommended_level": [45, 95],  "biome": "desert"},
+
+    {"id": "free_wilds",      "name": "Free Wilds",       "kingdom": "neutral",     "danger": 8, "recommended_level": [60, 150], "biome": "wilderness"}
+  ]
+}

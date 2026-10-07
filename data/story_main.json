@@ -1,0 +1,88 @@
+{
+  "chapters": [
+    {"id":"ch1","title":"The Awakening","level_req":15,"desc":"Kau terbangun di dunia baru tanpa ingatan jelas. Suara-suara dari masa lalu memanggilmu.","location":"aurelia","unlock_next":"ch2","scenes":[
+      {"type":"narration","text":"Kau membuka matamu. Langit ungu dengan dua bulan redup menyambutmu."},
+      {"type":"narration","text":"Kau tidak mengenali tempat ini. Namun entah kenapa, kau tahu kau pernah di sini sebelumnya."},
+      {"type":"voice","who":"???","text":"Selamat datang kembali, jiwa yang lama mencari."},
+      {"type":"narration","text":"Suara itu mengilang seperti kabut. Kau berdiri di depan gerbang kota Aurelia."},
+      {"type":"hint","text":"Bicaralah dengan NPC di kota untuk petunjuk. Misteri dimulai dari Guild Azure Dawn."}
+    ]},
+    {"id":"ch2","title":"Whispers of the Old World","level_req":20,"desc":"Kau mulai mengingat potongan kehidupan sebelumnya — gedung tinggi, kereta baja, dan sebuah nama yang kau lupakan.","location":"aurelia","prereq":"ch1","unlock_next":"ch3","scenes":[
+      {"type":"narration","text":"Di malam hari, kau memimpikan bangunan tinggi yang menjulang ke langit."},
+      {"type":"narration","text":"Kau melihat dirimu sendiri — tapi bukan dirimu. Kau memakai pakaian aneh, memegang benda bercahaya."},
+      {"type":"voice","who":"Suara Misterius","text":"Ingatlah... sebelum semuanya terlambat."},
+      {"type":"narration","text":"Kau terbangun dengan keringat dingin. Apa itu masa lalu? Atau masa depan?"},
+      {"type":"hint","text":"Kunjungi perpustakaan Aurelia untuk mencari catatan kuno tentang reinkarnasi."}
+    ]},
+    {"id":"ch3","title":"The Scholar's Records","level_req":25,"desc":"Catatan kuno menyebut tentang 'Jiwa Berulang' — jiwa yang dilahirkan kembali setiap 1000 tahun untuk menjaga keseimbangan.","location":"aurelia","prereq":"ch2","unlock_next":"ch4","scenes":[
+      {"type":"narration","text":"Di perpustakaan, kau menemukan buku berdebu berjudul 'Chronicles of the Reborn'."},
+      {"type":"narration","text":"Setiap 1000 tahun, seorang 'Reborn' datang dari dunia lain untuk mencegah bencana."},
+      {"type":"voice","who":"Professor Lyra","text":"Kau membaca tentang Reborn? Aneh. Buku itu seharusnya hilang 200 tahun lalu."},
+      {"type":"narration","text":"Professor Lyra menatapmu dengan curiga — tapi juga harapan."},
+      {"type":"hint","text":"Cari lebih banyak buku tentang Reborn di perpustakaan akademi."}
+    ]},
+    {"id":"ch4","title":"The Voice in the Dark","level_req":30,"desc":"Kau mulai mendengar suara-suara dari kegelapan. Mereka memanggilmu ke Reruntuhan Utara.","location":"stonevale","prereq":"ch3","unlock_next":"ch5","scenes":[
+      {"type":"narration","text":"Setiap malam, kau mimpi tentang reruntuhan di utara."},
+      {"type":"voice","who":"Suara Bayangan","text":"Reborn... datanglah. Kita sudah menunggumu."},
+      {"type":"narration","text":"Kau tahu itu jebakan. Tapi kau juga tahu kau harus pergi."},
+      {"type":"hint","text":"Perjalanan ke reruntuhan utara (region: stone_mines) menantimu."}
+    ]},
+    {"id":"ch5","title":"The Broken Seal","level_req":35,"desc":"Kau menemukan segel kuno yang retak. Di dalamnya, kekuatan yang seharusnya tidak pernah keluar.","location":"stone_mines","prereq":"ch4","unlock_next":"ch6","scenes":[
+      {"type":"narration","text":"Di dasar reruntuhan, sebuah segel besar bercahaya gelap."},
+      {"type":"narration","text":"Retakan di segel bercahaya merah. Sesuatu mencoba keluar."},
+      {"type":"voice","who":"???","text":"Kau datang... tapi kau sudah terlambat."},
+      {"type":"narration","text":"Segel itu retak lebih dalam. Sebuah bayangan keluar dari dalam."},
+      {"type":"hint","text":"Kau memutuskan untuk membawa informasi ini ke Guild Azure Dawn."}
+    ]},
+    {"id":"ch6","title":"The First Fragment","level_req":40,"desc":"Kau menerima pecahan memori pertama — bumi, tahun 2024, dan sebuah janji yang belum ditunaikan.","location":"aurelia","prereq":"ch5","unlock_next":"ch7","scenes":[
+      {"type":"narration","text":"Saat kau menyentuh segel yang retak, memori membanjiri kepalamu."},
+      {"type":"memory","text":"[MEMORY FRAGMENT #1] - Tokyo, 2024. Kau berdiri di atas gedung tinggi. Sebuah suara di belakangmu."},
+      {"type":"memory","text":"[MEMORY FRAGMENT #1] - 'Jika kau benar-benar ingin tahu, temui aku di tempat yang sama saat kau hampir mati.'"},
+      {"type":"narration","text":"Kau tidak mengerti arti kata-kata itu. Tapi kau tahu kau harus menemukannya."},
+      {"type":"hint","text":"Potongan memori memandu ke reruntuhan di Free Wilds."}
+    ]},
+    {"id":"ch7","title":"The Lost Companion","level_req":45,"desc":"Kau bertemu seseorang yang mengenalmu dari kehidupan sebelumnya — dan dia menunggu selama ini.","location":"freetown","prereq":"ch6","unlock_next":"ch8","scenes":[
+      {"type":"narration","text":"Di Free Wilds, seorang wanita berjubah hitam menunggumu."},
+      {"type":"voice","who":"Wanita Berjubah","text":"Kau datang juga. 1000 tahun sudah. Aku sudah lelah menunggumu."},
+      {"type":"narration","text":"Kau tidak mengenalnya. Tapi hatinya... hatinya terasa akrab."},
+      {"type":"voice","who":"Wanita Berjubah","text":"Namaku Elara. Aku pengawalmu di kehidupan sebelumnya. Kau mati di tanganku."},
+      {"type":"narration","text":"Kata-kata itu menusuk jauh ke dalam dirimu. Kau tidak tahu mengapa."},
+      {"type":"hint","text":"Dengarkan cerita Elara di Free Wilds sebelum melanjutkan."}
+    ]},
+    {"id":"ch8","title":"Revelation of the Cycle","level_req":50,"desc":"Kau tahu sekarang: kau bukan orang pertama. Dan kau mungkin bukan yang terakhir. Tapi siklus ini bisa diputus.","location":"freetown","prereq":"ch7","unlock_next":"ch9","scenes":[
+      {"type":"narration","text":"Elara menceritakan seluruh kebenaran."},
+      {"type":"narration","text":"Setiap 1000 tahun, seorang Reborn datang. Setiap kali, mereka gagal mencegah 'The Convergence'."},
+      {"type":"voice","who":"Elara","text":"Kali ini, kau harus berhasil. Atau dunia ini akan berakhir seperti yang lain."},
+      {"type":"narration","text":"Kau mengepalkan tangan. Kali ini akan berbeda."},
+      {"type":"hint","text":"Kau harus mengumpulkan lebih banyak kekuatan. Lanjutkan perjalananmu."}
+    ]},
+    {"id":"ch9","title":"The Ancient Pact","level_req":60,"desc":"Kau menemukan bahwa lima kerajaan menyimpan rahasia — mereka semua terhubung dengan satu perjanjian kuno.","location":"nox","prereq":"ch8","unlock_next":"ch10","scenes":[
+      {"type":"narration","text":"Di kegelapan Nox, kau menemukan dokumen rahasia."},
+      {"type":"narration","text":"Lima kerajaan menandatangani perjanjian untuk 'menjaga rahasia Reborn' dari rakyat."},
+      {"type":"voice","who":"Lord Regent Varyn","text":"Kau tahu terlalu banyak. Aku seharusnya membunuhmu sekarang."},
+      {"type":"narration","text":"Varyn menatapmu lama. Lalu tertawa pahit."},
+      {"type":"voice","who":"Lord Regent Varyn","text":"Tapi kau berbeda. Mungkin kau benar-benar 'yang satu itu'."},
+      {"type":"hint","text":"Varyn menawarkan informasi tentang The Convergence."}
+    ]},
+    {"id":"ch10","title":"The Convergence","level_req":70,"desc":"Waktunya tiba. The Convergence — titik di mana dunia lama dan dunia baru bertemu.","location":"free_wilds","prereq":"ch9","unlock_next":"ch11","scenes":[
+      {"type":"narration","text":"Langit terbelah. Dua bulan menjadi satu. Dunia bergetar."},
+      {"type":"narration","text":"The Convergence dimulai."},
+      {"type":"voice","who":"Elara","text":"Kita harus ke titik pertemuan. Kau siap?"},
+      {"type":"narration","text":"Kau mengangguk. Tidak ada jalan kembali."},
+      {"type":"hint","text":"Siapkan equipment dan party-mu. Ini pertempuran terakhir."}
+    ]},
+    {"id":"ch11","title":"The Guardian of the Void","level_req":80,"desc":"Kau berhadapan dengan penjaga sebenarnya dari siklus ini — entitas yang menolak kau memutus rantai.","location":"free_wilds","prereq":"ch10","unlock_next":"ch12","scenes":[
+      {"type":"narration","text":"Di jantung Convergence, sebuah entitas muncul."},
+      {"type":"voice","who":"Guardian","text":"Kau bukan yang pertama, bukan yang terakhir. Kau akan gagal seperti mereka."},
+      {"type":"voice","who":"Kau","text":"Kali ini berbeda."},
+      {"type":"narration","text":"Pertempuran dimulai."},
+      {"type":"hint","text":"Persiapan maksimal diperlukan untuk melawan Guardian."}
+    ]},
+    {"id":"ch12","title":"A New Dawn","level_req":100,"desc":"Kau memilih. Memutus siklus, menjadi Reborn abadi, atau kembali ke Bumi. Semua pilihan memiliki konsekuensi.","location":"free_wilds","prereq":"ch11","unlock_next":null,"scenes":[
+      {"type":"narration","text":"Guardian tumbang. Siklus berakhir... atau berlanjut?"},
+      {"type":"voice","who":"Suara Dunia","text":"Kau telah sampai di akhir. Sekarang, pilih."},
+      {"type":"narration","text":"Tiga jalan terbentang di hadapanmu."},
+      {"type":"hint","text":"Pilih ending-mu di menu Story — Ending."}
+    ]}
+  ]
+}

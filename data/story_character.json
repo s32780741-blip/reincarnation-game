@@ -1,0 +1,49 @@
+{
+  "gender_paths": {
+    "male": {
+      "intro": "Kau dilahirkan kembali sebagai pria. Dunia mengharapkan kau menjadi pelindung. Tapi kau tahu kau lebih dari itu.",
+      "unique_lines": [
+        "Di dunia lama, kau mungkin seorang pekerja biasa. Di sini, kau bisa menjadi apapun.",
+        "Kekuatanmu bukan untuk mendominasi, tapi untuk melindungi."
+      ],
+      "special_npc": "Old Swordsman Gregory",
+      "special_role": "swordsman"
+    },
+    "female": {
+      "intro": "Kau dilahirkan kembali sebagai wanita. Dunia mencoba membatasi mu. Kau menolak untuk dibatasi.",
+      "unique_lines": [
+        "Kekuatan tidak ditentukan oleh gender. Kau akan membuktikannya.",
+        "Jalanmu mungkin lebih sulit, tapi kau lebih kuat karenanya."
+      ],
+      "special_npc": "Temple Healer Sera",
+      "special_role": "support"
+    }
+  },
+  "role_stories": {
+    "swordsman": {
+      "title": "The Way of the Blade",
+      "text": "Kau menemukan gaya pedangmu sendiri — lebih tajam dari apapun di dunia ini. Konon, itu adalah gaya Reborn pertama yang diwariskan lewat insting.",
+      "unlock_lore":"lore_01"
+    },
+    "mage": {
+      "title": "Arcane Memories",
+      "text": "Sihirmu bercampur dengan memori dunia lama. Setiap kali kau cast spell, kau melihat kilatan teknologi kuno.",
+      "unlock_lore":"lore_17"
+    },
+    "necromancer": {
+      "title": "The Forbidden Truth",
+      "text": "Kau menyadari kematian bukan akhir — itu adalah pintu menuju pemahaman sejati. Tapi harganya mahal.",
+      "unlock_lore":"lore_25"
+    },
+    "healer": {
+      "title": "The Anchor's Calling",
+      "text": "Setiap kali kau menyembuhkan seseorang, kau merasakan tarikan aneh dari dalam dirimu — seolah kau mengingat sesuatu yang penting.",
+      "unlock_lore":"lore_06"
+    },
+    "assassin": {
+      "title": "Shadows of the Past",
+      "text": "Kau menjadi bayangan, tapi bayanganmu bergerak sendiri — mengingatkanmu pada kehidupan yang penuh kegelapan.",
+      "unlock_lore":"lore_31"
+    }
+  }
+}

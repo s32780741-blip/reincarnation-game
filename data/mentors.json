@@ -1,0 +1,107 @@
+{
+  "mentors": [
+    {
+      "id": "old_swordsman",
+      "name": "Old Swordsman Gregory",
+      "teaches": "swordsman",
+      "location": "Aurelia",
+      "req_level": 15,
+      "req_mastery": {"combat_arts": 1},
+      "cost_gold": 0,
+      "dialog": "Kau ingin belajar pedang sejati? Aku akan mengajarimu... jika kau serius.",
+      "starts_at": "market"
+    },
+    {
+      "id": "royal_knight_captain",
+      "name": "Captain Aldric",
+      "teaches": "knight",
+      "location": "Aurelia",
+      "req_level": 20,
+      "req_mastery": {"swordsmanship": 2},
+      "cost_gold": 5,
+      "dialog": "Kesatria bukan hanya soal kekuatan. Kau harus punya disiplin.",
+      "starts_at": "castle"
+    },
+    {
+      "id": "academy_professor",
+      "name": "Professor Lyra",
+      "teaches": "mage",
+      "location": "Aurelia",
+      "req_level": 15,
+      "req_mastery": {},
+      "cost_gold": 3,
+      "dialog": "Sihir bukan sihir tanpa pengetahuan. Ayo belajar dasar-dasarnya.",
+      "starts_at": "academy"
+    },
+    {
+      "id": "forest_ranger",
+      "name": "Ranger Sylas",
+      "teaches": "archer",
+      "location": "Aurelia",
+      "req_level": 15,
+      "req_mastery": {},
+      "cost_gold": 1,
+      "dialog": "Alam mengajar lebih banyak dari buku. Ikut aku ke hutan.",
+      "starts_at": "guild"
+    },
+    {
+      "id": "shadow_leader",
+      "name": "Shadow Leader 'Vesper'",
+      "teaches": "assassin",
+      "location": "Aurelia",
+      "req_level": 25,
+      "req_mastery": {"thievery": 3},
+      "cost_gold": 10,
+      "dialog": "Jangan bicara. Jangan lihat. Jangan diingat. Itu kunci kami.",
+      "starts_at": "black_market"
+    },
+    {
+      "id": "dark_scholar",
+      "name": "Scholars of the Veil",
+      "teaches": "necromancer",
+      "location": "Aurelia",
+      "req_level": 40,
+      "req_mastery": {"magic_knowledge": 4},
+      "cost_gold": 25,
+      "dialog": "Kematian bukan akhir. Kau akan tahu... jika kau cukup berani.",
+      "starts_at": "hidden_ruins",
+      "gender_lock": "male"
+    },
+    {
+      "id": "temple_healer",
+      "name": "Priestess Mira",
+      "teaches": "support",
+      "location": "Aurelia",
+      "req_level": 20,
+      "req_mastery": {"life_magic": 2},
+      "cost_gold": 3,
+      "dialog": "Menjadi penopang bukan berarti lemah. Kau akan menjadi tulang punggung party.",
+      "starts_at": "temple",
+      "gender_lock": "female"
+    },
+    {
+      "id": "dwarven_smith",
+      "name": "Brom the Smith",
+      "teaches": "blacksmith",
+      "location": "Aurelia",
+      "req_level": 25,
+      "req_mastery": {"blacksmithing": 2},
+      "cost_gold": 5,
+      "dialog": "Palu ini bukan sekadar alat. Ia bernapas. Mau belajar?",
+      "starts_at": "forge",
+      "gender_lock": "male"
+    },
+    {
+      "id": "spirit_caller",
+      "name": "Spirit Caller Yui",
+      "teaches": "summoner",
+      "location": "Aurelia",
+      "req_level": 30,
+      "req_mastery": {"magic_knowledge": 3},
+      "cost_gold": 15,
+      "dialog": "Aku memanggil mereka dari dunia lain. Beberapa menjawab. Beberapa... menolak.",
+      "starts_at": "sacred_spring",
+      "gender_lock": "female"
+    }
+  ]
+}

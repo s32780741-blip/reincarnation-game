@@ -1,0 +1,79 @@
+{
+  "kingdoms": [
+    {
+      "id": "aetheria",
+      "name": "Kingdom of Aetheria",
+      "capital": "aurelia",
+      "ruler": "King Aldric IV",
+      "royal_family": ["Queen Seraphina", "Prince Cassian", "Princess Elara"],
+      "military": 8,
+      "economy": 9,
+      "culture": "Academic & Magical",
+      "territory": "Central Plains",
+      "specialty": "Magic Academy, Trade Hub",
+      "conflict": "Border tension with Valtheron",
+      "desc": "Kerajaan terkaya di benua. Pusat sihir & perdagangan. Aurelia adalah ibu kota paling megah.",
+      "color": "cyan"
+    },
+    {
+      "id": "valtheron",
+      "name": "Kingdom of Valtheron",
+      "capital": "stormhelm",
+      "ruler": "King Roderick Ironheart",
+      "royal_family": ["Queen Astrid", "Prince Ulric"],
+      "military": 10,
+      "economy": 6,
+      "culture": "Martial & Honorbound",
+      "territory": "Northern Highlands",
+      "specialty": "Knight Orders, Mining",
+      "conflict": "Historical grudge vs Aetheria",
+      "desc": "Kerajaan prajurit. Ksatria Valtheron terkenal akan kehormatan dan kekuatan tempur.",
+      "color": "blue"
+    },
+    {
+      "id": "elaris",
+      "name": "Kingdom of Elaris",
+      "capital": "silvermoon",
+      "ruler": "Queen Lianoriel",
+      "royal_family": ["Prince Aerion", "Princess Sylwen"],
+      "military": 7,
+      "economy": 7,
+      "culture": "Elegant & Mystical",
+      "territory": "Western Forests",
+      "specialty": "Archery, Nature Magic",
+      "conflict": "Struggling against beast waves",
+      "desc": "Kerajaan para elf dan pemanah. Alam dan sihir hidup dalam harmoni.",
+      "color": "green"
+    },
+    {
+      "id": "dravencrown",
+      "name": "Kingdom of Dravencrown",
+      "capital": "nox",
+      "ruler": "Lord Regent Varyn",
+      "royal_family": ["Lady Morrigan"],
+      "military": 9,
+      "economy": 5,
+      "culture": "Dark & Pragmatic",
+      "territory": "Eastern Swamps",
+      "specialty": "Necromancy (tolerated), Black Market",
+      "conflict": "Internal power struggle",
+      "desc": "Kerajaan kelam di timur. Sihir terlarang ditoleransi di sini — dengan harga.",
+      "color": "magenta"
+    },
+    {
+      "id": "solmire",
+      "name": "Kingdom of Solmire",
+      "capital": "sunreach",
+      "ruler": "Sultan Kael",
+      "royal_family": ["Sultana Nyla", "Prince Rami"],
+      "military": 7,
+      "economy": 8,
+      "culture": "Trade & Exploration",
+      "territory": "Southern Deserts & Coasts",
+      "specialty": "Overseas Trade, Alchemy",
+      "conflict": "Pirates and desert raiders",
+      "desc": "Kerajaan gurun yang kaya. Pelabuhan terbesar dan alchemist terbaik.",
+      "color": "yellow"
+    }
+  ]
+}

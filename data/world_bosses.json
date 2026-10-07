@@ -1,0 +1,9 @@
+{
+  "world_bosses": [
+    {"id":"wb_crimson_titan","monster":"crimson_titan_wolf","region":"northern_highlands","level":135,"title":"Terror of the North","reward":{"silver":15000,"gold":60,"exp":30000},"respawn_hours":24,"alert":"Raja Beast dari utara muncul kembali!"},
+    {"id":"wb_storm_griffin","monster":"storm_king_griffin","region":"iceveil_peaks","level":150,"title":"Storm Bringer","reward":{"silver":20000,"gold":80,"exp":40000},"respawn_hours":48,"alert":"Storm King Griffin terbang di atas pegunungan!"},
+    {"id":"wb_frost_wyrm","monster":"frost_wyrm_king","region":"iceveil_peaks","level":170,"title":"Winter's End","reward":{"silver":30000,"gold":120,"exp":55000},"respawn_hours":72,"alert":"Frost Wyrm King bangkit dari tidur abadi!"},
+    {"id":"wb_void_devourer","monster":"void_devourer","region":"free_wilds","level":220,"title":"The Void Incarnate","reward":{"silver":50000,"gold":200,"exp":90000},"respawn_hours":168,"alert":"Void Devourer menelan cahaya bintang!"},
+    {"id":"wb_ancient_treant","monster":"ancient_treant","region":"elder_forest","level":100,"title":"Elder of the Woods","reward":{"silver":12000,"gold":40,"exp":22000},"respawn_hours":24,"alert":"Ancient Treant mengamuk!"}
+  ]
+}
