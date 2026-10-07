@@ -1,19 +1,70 @@
-"""Account creation & login flow — versi final."""
-import getpass
+"""Account creation & login flow — FIXED untuk Termux Android.
+
+getpass() tidak bekerja normal di Termux. Gunakan input() biasa
+dengan masking manual (tampilkan karakter *).
+"""
+import sys
 from ui import C, color, clear, box, prompt, pause
 from i18n import t
 import database as db
 import settings
 
+
 def _lang():
     return settings.get("language", "id")
 
-def _ask_password(label):
-    try:
-        return getpass.getpass(color(f"{label}: ", C.CYAN)).strip()
-    except Exception:
-        return prompt(f"{label}: ")
 
+# ============================================================
+# PASSWORD INPUT — FIX untuk Termux
+# ============================================================
+def _ask_password(label):
+    """
+    Input password tanpa getpass (fix bug Termux).
+    
+    Coba masking manual dulu. Kalau gagal, fallback ke input() biasa.
+    """
+    label_colored = color(f"{label}: ", C.CYAN)
+
+    # Coba masking manual (Linux style)
+    try:
+        import termios, tty
+        print(label_colored, end="", flush=True)
+        fd = sys.stdin.fileno()
+        old = termios.tcgetattr(fd)
+        try:
+            tty.setraw(fd)
+            chars = []
+            while True:
+                ch = sys.stdin.read(1)
+                if ch in ("\r", "\n"):
+                    print()
+                    break
+                elif ch == "\x7f" or ch == "\b":  # backspace
+                    if chars:
+                        chars.pop()
+                        sys.stdout.write("\b \b")
+                        sys.stdout.flush()
+                elif ch == "\x03":  # Ctrl+C
+                    raise KeyboardInterrupt
+                else:
+                    chars.append(ch)
+                    sys.stdout.write("*")
+                    sys.stdout.flush()
+            return "".join(chars).strip()
+        finally:
+            termios.tcsetattr(fd, termios.TCSADRAIN, old)
+    except Exception:
+        # Fallback: input biasa (terlihat di layar, tapi bekerja di Termux)
+        try:
+            return input(label_colored).strip()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            return ""
+
+
+# ============================================================
+# ACCOUNT MENU
+# ============================================================
 def account_menu():
     lang = _lang()
     while True:
@@ -42,6 +93,10 @@ def account_menu():
             print(color(f" {t('common.invalid', lang)}", C.RED))
             pause()
 
+
+# ============================================================
+# LOGIN
+# ============================================================
 def do_login():
     lang = _lang()
     clear()
@@ -51,10 +106,14 @@ def do_login():
     ]))
     u = prompt(f"{t('account.username', lang)}: ")
     if not u:
-        print(color(f" {t('common.invalid', lang)}", C.RED)); pause(); return None
+        print(color(f" {t('common.invalid', lang)}", C.RED))
+        pause()
+        return None
     p = _ask_password(t("account.password", lang))
     if not p:
-        print(color(f" {t('common.invalid', lang)}", C.RED)); pause(); return None
+        print(color(f" {t('common.invalid', lang)}", C.RED))
+        pause()
+        return None
 
     acc = db.verify_login(u, p)
     if acc:
@@ -66,6 +125,10 @@ def do_login():
     pause()
     return None
 
+
+# ============================================================
+# CREATE ACCOUNT
+# ============================================================
 def do_create():
     lang = _lang()
     clear()
@@ -76,13 +139,19 @@ def do_create():
     ]))
     u = prompt(f"{t('account.username', lang)}: ")
     if not u:
-        print(color(f" {t('common.invalid', lang)}", C.RED)); pause(); return
+        print(color(f" {t('common.invalid', lang)}", C.RED))
+        pause()
+        return
     p = _ask_password(t("account.password", lang))
     if not p:
-        print(color(f" {t('common.invalid', lang)}", C.RED)); pause(); return
+        print(color(f" {t('common.invalid', lang)}", C.RED))
+        pause()
+        return
     c = _ask_password(t("account.confirm", lang))
     if p != c:
-        print(color(" Password tidak sama.", C.RED)); pause(); return
+        print(color(" Password tidak sama.", C.RED))
+        pause()
+        return
 
     ok, err = db.create_account(u, p)
     if ok:
@@ -99,8 +168,11 @@ def do_create():
         print(color(f"\n ✗ {msg}", C.RED))
         pause()
 
+
+# ============================================================
+# ACCOUNT HUB
+# ============================================================
 def account_hub(account):
-    """Setelah login — menu akun. Return character_id atau None (logout)."""
     lang = _lang()
     while True:
         chars = db.get_characters(account["id"])
@@ -118,7 +190,9 @@ def account_hub(account):
         ch = prompt("> ")
         if ch == "1":
             if not chars:
-                print(color(" Belum ada karakter.", C.YELLOW)); pause(); continue
+                print(color(" Belum ada karakter.", C.YELLOW))
+                pause()
+                continue
             return chars[0]["id"]
         elif ch == "2":
             cid = character_select(account)
@@ -131,8 +205,13 @@ def account_hub(account):
         elif ch == "4":
             return None
         else:
-            print(color(" Invalid.", C.RED)); pause()
+            print(color(" Invalid.", C.RED))
+            pause()
 
+
+# ============================================================
+# CHARACTER SELECT
+# ============================================================
 def character_select(account):
     chars = db.get_characters(account["id"])
     clear()
@@ -144,13 +223,12 @@ def character_select(account):
             "   Create your first",
             "   character to begin.",
             "",
-            "   [ CREATE CHARACTER ]",
+            "   [ Tekan Enter untuk Buat Karakter ]",
             "",
         ]))
-        if prompt("> ").strip() == "":
-            from character import create_character_flow
-            return create_character_flow(account["id"])
-        return None
+        prompt("")
+        from character import create_character_flow
+        return create_character_flow(account["id"])
 
     from rank import rank_text
     lines = []
